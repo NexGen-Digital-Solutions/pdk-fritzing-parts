@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="9.000000in" height="7.600000in" viewBox="0 0 648.000000 547.200000" version="1.2" baseProfile="tiny">
+  <style transform="scale(0.072 0.072)">
+    .body { fill:#f2f2f2; stroke:#333333; stroke-width:28; }
+    .pin { stroke:#555555; stroke-width:24; fill:none; }
+    .terminal { fill:none; stroke:none; }
+    .pinLabel { font-family:Arial, sans-serif; font-size:115px; fill:#222222; }
+    .topLabel { font-family:Arial, sans-serif; font-size:78px; font-weight:bold; fill:#222222; }
+    .bottomLabel { font-family:Arial, sans-serif; font-size:105px; font-weight:bold; fill:#222222; }
+    .groupTitle { font-family:Arial, sans-serif; font-size:155px; font-weight:bold; fill:#111111; }
+    .subtitle { font-family:Arial, sans-serif; font-size:112px; fill:#555555; }
+    .note { font-family:Arial, sans-serif; font-size:90px; fill:#8a2b2b; }
+  </style>
+  <g id="schematic" transform="scale(0.072 0.072)">
+    <rect x="700" y="400" width="7600" height="6800" rx="90" class="body" />
+    <text x="4500" y="1080" text-anchor="middle" class="groupTitle">PDK RED 4 EXPANDER</text>
+    <text x="4500" y="1260" text-anchor="middle" class="subtitle">R4E FOUR-DOOR ACCESS CONTROLLER</text>
+
+    <text x="980" y="820" class="groupTitle">DOOR 1</text>
+    <text x="980" y="3820" class="groupTitle">DOOR 2</text>
+    <text x="8020" y="820" text-anchor="end" class="groupTitle">DOOR 3</text>
+    <text x="8020" y="3820" text-anchor="end" class="groupTitle">DOOR 4</text>
+
+    <text x="1600" y="700" text-anchor="middle" class="subtitle">D1 JUMPERS</text>
+    <text x="3200" y="700" text-anchor="middle" class="subtitle">D2 JUMPERS</text>
+    <text x="4800" y="700" text-anchor="middle" class="subtitle">D3 JUMPERS</text>
+    <text x="6400" y="700" text-anchor="middle" class="subtitle">D4 JUMPERS</text>
+
+    <text x="4500" y="6900" text-anchor="middle" class="note">REFERENCE SYMBOL. VERIFY FIELD WIRING WITH CURRENT PDK DOCUMENTATION.</text>
+    
+        <line id="connector0pin" x1="0" y1="1000" x2="700" y2="1000" class="pin" />
+        <rect id="connector0terminal" x="-3" y="997" width="6" height="6" class="terminal" />
+        <text x="735" y="1036" class="pinLabel">RDR +</text>
+        <line id="connector1pin" x1="0" y1="1145" x2="700" y2="1145" class="pin" />
+        <rect id="connector1terminal" x="-3" y="1142" width="6" height="6" class="terminal" />
+        <text x="735" y="1181" class="pinLabel">RDR -</text>
+        <line id="connector2pin" x1="0" y1="1290" x2="700" y2="1290" class="pin" />
+        <rect id="connector2terminal" x="-3" y="1287" width="6" height="6" class="terminal" />
+        <text x="735" y="1326" class="pinLabel">D0 / B</text>
+        <line id="connector3pin" x1="0" y1="1435" x2="700" y2="1435" class="pin" />
+        <rect id="connector3terminal" x="-3" y="1432" width="6" height="6" class="terminal" />
+        <text x="735" y="1471" class="pinLabel">D1 / A</text>
+        <line id="connector4pin" x1="0" y1="1580" x2="700" y2="1580" class="pin" />
+        <rect id="connector4terminal" x="-3" y="1577" width="6" height="6" class="terminal" />
+        <text x="735" y="1616" class="pinLabel">LED</text>
+        <line id="connector5pin" x1="0" y1="1725" x2="700" y2="1725" class="pin" />
+        <rect id="connector5terminal" x="-3" y="1722" width="6" height="6" class="terminal" />
+        <text x="735" y="1761" class="pinLabel">IN A</text>
+        <line id="connector6pin" x1="0" y1="1870" x2="700" y2="1870" class="pin" />
+        <rect id="connector6terminal" x="-3" y="1867" width="6" height="6" class="terminal" />
+        <text x="735" y="1906" class="pinLabel">IN B</text>
+        <line id="connector7pin" x1="0" y1="2015" x2="700" y2="2015" class="pin" />
+        <rect id="connector7terminal" x="-3" y="2012" width="6" height="6" class="terminal" />
+        <text x="735" y="2051" class="pinLabel">IN -</text>
+        <line id="connector8pin" x1="0" y1="2160" x2="700" y2="2160" class="pin" />
+        <rect id="connector8terminal" x="-3" y="2157" width="6" height="6" class="terminal" />
+        <text x="735" y="2196" class="pinLabel">NC</text>
+        <line id="connector9pin" x1="0" y1="2305" x2="700" y2="2305" class="pin" />
+        <rect id="connector9terminal" x="-3" y="2302" width="6" height="6" class="terminal" />
+        <text x="735" y="2341" class="pinLabel">C</text>
+        <line id="connector10pin" x1="0" y1="2450" x2="700" y2="2450" class="pin" />
+        <rect id="connector10terminal" x="-3" y="2447" width="6" height="6" class="terminal" />
+        <text x="735" y="2486" class="pinLabel">NO</text>
+        <line id="connector11pin" x1="0" y1="4000" x2="700" y2="4000" class="pin" />
+        <rect id="connector11terminal" x="-3" y="3997" width="6" height="6" class="terminal" />
+        <text x="735" y="4036" class="pinLabel">RDR +</text>
+        <line id="connector12pin" x1="0" y1="4145" x2="700" y2="4145" class="pin" />
+        <rect id="connector12terminal" x="-3" y="4142" width="6" height="6" class="terminal" />
+        <text x="735" y="4181" class="pinLabel">RDR -</text>
+        <line id="connector13pin" x1="0" y1="4290" x2="700" y2="4290" class="pin" />
+        <rect id="connector13terminal" x="-3" y="4287" width="6" height="6" class="terminal" />
+        <text x="735" y="4326" class="pinLabel">D0 / B</text>
+        <line id="connector14pin" x1="0" y1="4435" x2="700" y2="4435" class="pin" />
+        <rect id="connector14terminal" x="-3" y="4432" width="6" height="6" class="terminal" />
+        <text x="735" y="4471" class="pinLabel">D1 / A</text>
+        <line id="connector15pin" x1="0" y1="4580" x2="700" y2="4580" class="pin" />
+        <rect id="connector15terminal" x="-3" y="4577" width="6" height="6" class="terminal" />
+        <text x="735" y="4616" class="pinLabel">LED</text>
+        <line id="connector16pin" x1="0" y1="4725" x2="700" y2="4725" class="pin" />
+        <rect id="connector16terminal" x="-3" y="4722" width="6" height="6" class="terminal" />
+        <text x="735" y="4761" class="pinLabel">IN A</text>
+        <line id="connector17pin" x1="0" y1="4870" x2="700" y2="4870" class="pin" />
+        <rect id="connector17terminal" x="-3" y="4867" width="6" height="6" class="terminal" />
+        <text x="735" y="4906" class="pinLabel">IN B</text>
+        <line id="connector18pin" x1="0" y1="5015" x2="700" y2="5015" class="pin" />
+        <rect id="connector18terminal" x="-3" y="5012" width="6" height="6" class="terminal" />
+        <text x="735" y="5051" class="pinLabel">IN -</text>
+        <line id="connector19pin" x1="0" y1="5160" x2="700" y2="5160" class="pin" />
+        <rect id="connector19terminal" x="-3" y="5157" width="6" height="6" class="terminal" />
+        <text x="735" y="5196" class="pinLabel">NC</text>
+        <line id="connector20pin" x1="0" y1="5305" x2="700" y2="5305" class="pin" />
+        <rect id="connector20terminal" x="-3" y="5302" width="6" height="6" class="terminal" />
+        <text x="735" y="5341" class="pinLabel">C</text>
+        <line id="connector21pin" x1="0" y1="5450" x2="700" y2="5450" class="pin" />
+        <rect id="connector21terminal" x="-3" y="5447" width="6" height="6" class="terminal" />
+        <text x="735" y="5486" class="pinLabel">NO</text>
+        <line id="connector22pin" x1="9000" y1="1000" x2="8300" y2="1000" class="pin" />
+        <rect id="connector22terminal" x="8997" y="997" width="6" height="6" class="terminal" />
+        <text x="8265" y="1036" text-anchor="end" class="pinLabel">RDR +</text>
+        <line id="connector23pin" x1="9000" y1="1145" x2="8300" y2="1145" class="pin" />
+        <rect id="connector23terminal" x="8997" y="1142" width="6" height="6" class="terminal" />
+        <text x="8265" y="1181" text-anchor="end" class="pinLabel">RDR -</text>
+        <line id="connector24pin" x1="9000" y1="1290" x2="8300" y2="1290" class="pin" />
+        <rect id="connector24terminal" x="8997" y="1287" width="6" height="6" class="terminal" />
+        <text x="8265" y="1326" text-anchor="end" class="pinLabel">D0 / B</text>
+        <line id="connector25pin" x1="9000" y1="1435" x2="8300" y2="1435" class="pin" />
+        <rect id="connector25terminal" x="8997" y="1432" width="6" height="6" class="terminal" />
+        <text x="8265" y="1471" text-anchor="end" class="pinLabel">D1 / A</text>
+        <line id="connector26pin" x1="9000" y1="1580" x2="8300" y2="1580" class="pin" />
+        <rect id="connector26terminal" x="8997" y="1577" width="6" height="6" class="terminal" />
+        <text x="8265" y="1616" text-anchor="end" class="pinLabel">LED</text>
+        <line id="connector27pin" x1="9000" y1="1725" x2="8300" y2="1725" class="pin" />
+        <rect id="connector27terminal" x="8997" y="1722" width="6" height="6" class="terminal" />
+        <text x="8265" y="1761" text-anchor="end" class="pinLabel">IN A</text>
+        <line id="connector28pin" x1="9000" y1="1870" x2="8300" y2="1870" class="pin" />
+        <rect id="connector28terminal" x="8997" y="1867" width="6" height="6" class="terminal" />
+        <text x="8265" y="1906" text-anchor="end" class="pinLabel">IN B</text>
+        <line id="connector29pin" x1="9000" y1="2015" x2="8300" y2="2015" class="pin" />
+        <rect id="connector29terminal" x="8997" y="2012" width="6" height="6" class="terminal" />
+        <text x="8265" y="2051" text-anchor="end" class="pinLabel">IN -</text>
+        <line id="connector30pin" x1="9000" y1="2160" x2="8300" y2="2160" class="pin" />
+        <rect id="connector30terminal" x="8997" y="2157" width="6" height="6" class="terminal" />
+        <text x="8265" y="2196" text-anchor="end" class="pinLabel">NC</text>
+        <line id="connector31pin" x1="9000" y1="2305" x2="8300" y2="2305" class="pin" />
+        <rect id="connector31terminal" x="8997" y="2302" width="6" height="6" class="terminal" />
+        <text x="8265" y="2341" text-anchor="end" class="pinLabel">C</text>
+        <line id="connector32pin" x1="9000" y1="2450" x2="8300" y2="2450" class="pin" />
+        <rect id="connector32terminal" x="8997" y="2447" width="6" height="6" class="terminal" />
+        <text x="8265" y="2486" text-anchor="end" class="pinLabel">NO</text>
+        <line id="connector33pin" x1="9000" y1="4000" x2="8300" y2="4000" class="pin" />
+        <rect id="connector33terminal" x="8997" y="3997" width="6" height="6" class="terminal" />
+        <text x="8265" y="4036" text-anchor="end" class="pinLabel">RDR +</text>
+        <line id="connector34pin" x1="9000" y1="4145" x2="8300" y2="4145" class="pin" />
+        <rect id="connector34terminal" x="8997" y="4142" width="6" height="6" class="terminal" />
+        <text x="8265" y="4181" text-anchor="end" class="pinLabel">RDR -</text>
+        <line id="connector35pin" x1="9000" y1="4290" x2="8300" y2="4290" class="pin" />
+        <rect id="connector35terminal" x="8997" y="4287" width="6" height="6" class="terminal" />
+        <text x="8265" y="4326" text-anchor="end" class="pinLabel">D0 / B</text>
+        <line id="connector36pin" x1="9000" y1="4435" x2="8300" y2="4435" class="pin" />
+        <rect id="connector36terminal" x="8997" y="4432" width="6" height="6" class="terminal" />
+        <text x="8265" y="4471" text-anchor="end" class="pinLabel">D1 / A</text>
+        <line id="connector37pin" x1="9000" y1="4580" x2="8300" y2="4580" class="pin" />
+        <rect id="connector37terminal" x="8997" y="4577" width="6" height="6" class="terminal" />
+        <text x="8265" y="4616" text-anchor="end" class="pinLabel">LED</text>
+        <line id="connector38pin" x1="9000" y1="4725" x2="8300" y2="4725" class="pin" />
+        <rect id="connector38terminal" x="8997" y="4722" width="6" height="6" class="terminal" />
+        <text x="8265" y="4761" text-anchor="end" class="pinLabel">IN A</text>
+        <line id="connector39pin" x1="9000" y1="4870" x2="8300" y2="4870" class="pin" />
+        <rect id="connector39terminal" x="8997" y="4867" width="6" height="6" class="terminal" />
+        <text x="8265" y="4906" text-anchor="end" class="pinLabel">IN B</text>
+        <line id="connector40pin" x1="9000" y1="5015" x2="8300" y2="5015" class="pin" />
+        <rect id="connector40terminal" x="8997" y="5012" width="6" height="6" class="terminal" />
+        <text x="8265" y="5051" text-anchor="end" class="pinLabel">IN -</text>
+        <line id="connector41pin" x1="9000" y1="5160" x2="8300" y2="5160" class="pin" />
+        <rect id="connector41terminal" x="8997" y="5157" width="6" height="6" class="terminal" />
+        <text x="8265" y="5196" text-anchor="end" class="pinLabel">NC</text>
+        <line id="connector42pin" x1="9000" y1="5305" x2="8300" y2="5305" class="pin" />
+        <rect id="connector42terminal" x="8997" y="5302" width="6" height="6" class="terminal" />
+        <text x="8265" y="5341" text-anchor="end" class="pinLabel">C</text>
+        <line id="connector43pin" x1="9000" y1="5450" x2="8300" y2="5450" class="pin" />
+        <rect id="connector43terminal" x="8997" y="5447" width="6" height="6" class="terminal" />
+        <text x="8265" y="5486" text-anchor="end" class="pinLabel">NO</text>
+        <line id="connector44pin" x1="1200" y1="0" x2="1200" y2="400" class="pin" />
+        <rect id="connector44terminal" x="1197" y="-3" width="6" height="6" class="terminal" />
+        <text x="1200" y="520" text-anchor="middle" class="topLabel">JMP +</text>
+        <line id="connector45pin" x1="1400" y1="0" x2="1400" y2="400" class="pin" />
+        <rect id="connector45terminal" x="1397" y="-3" width="6" height="6" class="terminal" />
+        <text x="1400" y="520" text-anchor="middle" class="topLabel">JMP BUS</text>
+        <line id="connector46pin" x1="1600" y1="0" x2="1600" y2="400" class="pin" />
+        <rect id="connector46terminal" x="1597" y="-3" width="6" height="6" class="terminal" />
+        <text x="1600" y="520" text-anchor="middle" class="topLabel">JMP -</text>
+        <line id="connector47pin" x1="2800" y1="0" x2="2800" y2="400" class="pin" />
+        <rect id="connector47terminal" x="2797" y="-3" width="6" height="6" class="terminal" />
+        <text x="2800" y="520" text-anchor="middle" class="topLabel">JMP +</text>
+        <line id="connector48pin" x1="3000" y1="0" x2="3000" y2="400" class="pin" />
+        <rect id="connector48terminal" x="2997" y="-3" width="6" height="6" class="terminal" />
+        <text x="3000" y="520" text-anchor="middle" class="topLabel">JMP BUS</text>
+        <line id="connector49pin" x1="3200" y1="0" x2="3200" y2="400" class="pin" />
+        <rect id="connector49terminal" x="3197" y="-3" width="6" height="6" class="terminal" />
+        <text x="3200" y="520" text-anchor="middle" class="topLabel">JMP -</text>
+        <line id="connector50pin" x1="4400" y1="0" x2="4400" y2="400" class="pin" />
+        <rect id="connector50terminal" x="4397" y="-3" width="6" height="6" class="terminal" />
+        <text x="4400" y="520" text-anchor="middle" class="topLabel">JMP +</text>
+        <line id="connector51pin" x1="4600" y1="0" x2="4600" y2="400" class="pin" />
+        <rect id="connector51terminal" x="4597" y="-3" width="6" height="6" class="terminal" />
+        <text x="4600" y="520" text-anchor="middle" class="topLabel">JMP BUS</text>
+        <line id="connector52pin" x1="4800" y1="0" x2="4800" y2="400" class="pin" />
+        <rect id="connector52terminal" x="4797" y="-3" width="6" height="6" class="terminal" />
+        <text x="4800" y="520" text-anchor="middle" class="topLabel">JMP -</text>
+        <line id="connector53pin" x1="6000" y1="0" x2="6000" y2="400" class="pin" />
+        <rect id="connector53terminal" x="5997" y="-3" width="6" height="6" class="terminal" />
+        <text x="6000" y="520" text-anchor="middle" class="topLabel">JMP +</text>
+        <line id="connector54pin" x1="6200" y1="0" x2="6200" y2="400" class="pin" />
+        <rect id="connector54terminal" x="6197" y="-3" width="6" height="6" class="terminal" />
+        <text x="6200" y="520" text-anchor="middle" class="topLabel">JMP BUS</text>
+        <line id="connector55pin" x1="6400" y1="0" x2="6400" y2="400" class="pin" />
+        <rect id="connector55terminal" x="6397" y="-3" width="6" height="6" class="terminal" />
+        <text x="6400" y="520" text-anchor="middle" class="topLabel">JMP -</text>
+        <line id="connector56pin" x1="1850" y1="0" x2="1850" y2="400" class="pin" />
+        <rect id="connector56terminal" x="1847" y="-3" width="6" height="6" class="terminal" />
+        <text x="1850" y="520" text-anchor="middle" class="topLabel">OSDP 1</text>
+        <line id="connector57pin" x1="2050" y1="0" x2="2050" y2="400" class="pin" />
+        <rect id="connector57terminal" x="2047" y="-3" width="6" height="6" class="terminal" />
+        <text x="2050" y="520" text-anchor="middle" class="topLabel">OSDP 2</text>
+        <line id="connector58pin" x1="3450" y1="0" x2="3450" y2="400" class="pin" />
+        <rect id="connector58terminal" x="3447" y="-3" width="6" height="6" class="terminal" />
+        <text x="3450" y="520" text-anchor="middle" class="topLabel">OSDP 1</text>
+        <line id="connector59pin" x1="3650" y1="0" x2="3650" y2="400" class="pin" />
+        <rect id="connector59terminal" x="3647" y="-3" width="6" height="6" class="terminal" />
+        <text x="3650" y="520" text-anchor="middle" class="topLabel">OSDP 2</text>
+        <line id="connector60pin" x1="5050" y1="0" x2="5050" y2="400" class="pin" />
+        <rect id="connector60terminal" x="5047" y="-3" width="6" height="6" class="terminal" />
+        <text x="5050" y="520" text-anchor="middle" class="topLabel">OSDP 1</text>
+        <line id="connector61pin" x1="5250" y1="0" x2="5250" y2="400" class="pin" />
+        <rect id="connector61terminal" x="5247" y="-3" width="6" height="6" class="terminal" />
+        <text x="5250" y="520" text-anchor="middle" class="topLabel">OSDP 2</text>
+        <line id="connector62pin" x1="6650" y1="0" x2="6650" y2="400" class="pin" />
+        <rect id="connector62terminal" x="6647" y="-3" width="6" height="6" class="terminal" />
+        <text x="6650" y="520" text-anchor="middle" class="topLabel">OSDP 1</text>
+        <line id="connector63pin" x1="6850" y1="0" x2="6850" y2="400" class="pin" />
+        <rect id="connector63terminal" x="6847" y="-3" width="6" height="6" class="terminal" />
+        <text x="6850" y="520" text-anchor="middle" class="topLabel">OSDP 2</text>
+        <line id="connector64pin" x1="2800" y1="7600" x2="2800" y2="7200" class="pin" />
+        <rect id="connector64terminal" x="2797" y="7597" width="6" height="6" class="terminal" />
+        <text x="2800" y="7130" text-anchor="middle" class="bottomLabel">PWR +</text>
+        <line id="connector65pin" x1="3300" y1="7600" x2="3300" y2="7200" class="pin" />
+        <rect id="connector65terminal" x="3297" y="7597" width="6" height="6" class="terminal" />
+        <text x="3300" y="7130" text-anchor="middle" class="bottomLabel">PWR GND</text>
+        <line id="connector66pin" x1="5700" y1="7600" x2="5700" y2="7200" class="pin" />
+        <rect id="connector66terminal" x="5697" y="7597" width="6" height="6" class="terminal" />
+        <text x="5700" y="7130" text-anchor="middle" class="bottomLabel">BATT 1</text>
+        <line id="connector67pin" x1="6200" y1="7600" x2="6200" y2="7200" class="pin" />
+        <rect id="connector67terminal" x="6197" y="7597" width="6" height="6" class="terminal" />
+        <text x="6200" y="7130" text-anchor="middle" class="bottomLabel">BATT 2</text>
+  </g>
+</svg>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module moduleId="PDK_WiMAC_Module_v1" fritzingVersion="1.0.7" referenceFile="PDK_WiMAC_Module.fzp">
+  <version>1</version>
+  <author>NexGen Digital Solutions contributors</author>
+  <title>PDK WiMAC Module</title>
+  <label>PDK WiMAC</label>
+  <date>2026-07-16</date>
+  <tags>
+    <tag>PDK</tag>
+    <tag>ProdataKey</tag>
+    <tag>WiMAC</tag>
+    <tag>access control</tag>
+    <tag>daughtercard</tag>
+    <tag>module</tag>
+  </tags>
+  <properties>
+    <property name="family">Access Control Daughtercard</property>
+    <property name="part number">WiMAC</property>
+    <property name="dimensions">0.6923 in x 1.1122 in</property>
+    <property name="calibration">Manufacturer installation graphic</property>
+    <property name="SVG coordinate density">72 units per inch</property>
+  </properties>
+  <description>PDK WiMAC wireless communication daughtercard, shown in its mounted orientation. Its footprint and header locations are calibrated from the manufacturer Red 4 installation graphic. Twenty physical header contacts are mapped; their electrical assignments remain generic pending a verified factory pinout.</description>
+  <views>
+    <iconView>
+      <layers image="icon/PDK_WiMAC_Module_icon.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/PDK_WiMAC_Module_breadboard.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/PDK_WiMAC_Module_schematic.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/PDK_WiMAC_Module_pcb.svg">
+        <layer layerId="copper0" />
+        <layer layerId="copper1" />
+        <layer layerId="silkscreen" />
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="Left Header Pin 1">
+      <description>Left Header Pin 1; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector0pin" layer="copper0" />
+          <p svgId="connector0pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="Left Header Pin 2">
+      <description>Left Header Pin 2; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1pin" layer="copper0" />
+          <p svgId="connector1pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="Left Header Pin 3">
+      <description>Left Header Pin 3; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2pin" layer="copper0" />
+          <p svgId="connector2pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="Left Header Pin 4">
+      <description>Left Header Pin 4; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector3pin" layer="copper0" />
+          <p svgId="connector3pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="Left Header Pin 5">
+      <description>Left Header Pin 5; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector4pin" layer="breadboard" terminalId="connector4terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector4pin" layer="copper0" />
+          <p svgId="connector4pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="Left Header Pin 6">
+      <description>Left Header Pin 6; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector5pin" layer="breadboard" terminalId="connector5terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector5pin" layer="copper0" />
+          <p svgId="connector5pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="Left Header Pin 7">
+      <description>Left Header Pin 7; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector6pin" layer="breadboard" terminalId="connector6terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector6pin" layer="copper0" />
+          <p svgId="connector6pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="Left Header Pin 8">
+      <description>Left Header Pin 8; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector7pin" layer="breadboard" terminalId="connector7terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector7pin" layer="copper0" />
+          <p svgId="connector7pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="Left Header Pin 9">
+      <description>Left Header Pin 9; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector8pin" layer="breadboard" terminalId="connector8terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector8pin" layer="copper0" />
+          <p svgId="connector8pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="Left Header Pin 10">
+      <description>Left Header Pin 10; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector9pin" layer="breadboard" terminalId="connector9terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector9pin" layer="copper0" />
+          <p svgId="connector9pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="male" name="Right Header Pin 1">
+      <description>Right Header Pin 1; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector10pin" layer="breadboard" terminalId="connector10terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector10pin" layer="schematic" terminalId="connector10terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector10pin" layer="copper0" />
+          <p svgId="connector10pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="male" name="Right Header Pin 2">
+      <description>Right Header Pin 2; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector11pin" layer="breadboard" terminalId="connector11terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector11pin" layer="schematic" terminalId="connector11terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector11pin" layer="copper0" />
+          <p svgId="connector11pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="male" name="Right Header Pin 3">
+      <description>Right Header Pin 3; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector12pin" layer="breadboard" terminalId="connector12terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector12pin" layer="schematic" terminalId="connector12terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector12pin" layer="copper0" />
+          <p svgId="connector12pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="male" name="Right Header Pin 4">
+      <description>Right Header Pin 4; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector13pin" layer="breadboard" terminalId="connector13terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector13pin" layer="schematic" terminalId="connector13terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector13pin" layer="copper0" />
+          <p svgId="connector13pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="male" name="Right Header Pin 5">
+      <description>Right Header Pin 5; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector14pin" layer="breadboard" terminalId="connector14terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector14pin" layer="schematic" terminalId="connector14terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector14pin" layer="copper0" />
+          <p svgId="connector14pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="male" name="Right Header Pin 6">
+      <description>Right Header Pin 6; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector15pin" layer="breadboard" terminalId="connector15terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector15pin" layer="schematic" terminalId="connector15terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector15pin" layer="copper0" />
+          <p svgId="connector15pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="male" name="Right Header Pin 7">
+      <description>Right Header Pin 7; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector16pin" layer="breadboard" terminalId="connector16terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector16pin" layer="schematic" terminalId="connector16terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector16pin" layer="copper0" />
+          <p svgId="connector16pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="male" name="Right Header Pin 8">
+      <description>Right Header Pin 8; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector17pin" layer="breadboard" terminalId="connector17terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector17pin" layer="schematic" terminalId="connector17terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector17pin" layer="copper0" />
+          <p svgId="connector17pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="male" name="Right Header Pin 9">
+      <description>Right Header Pin 9; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector18pin" layer="breadboard" terminalId="connector18terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector18pin" layer="schematic" terminalId="connector18terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector18pin" layer="copper0" />
+          <p svgId="connector18pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector19" type="male" name="Right Header Pin 10">
+      <description>Right Header Pin 10; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector19pin" layer="breadboard" terminalId="connector19terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector19pin" layer="schematic" terminalId="connector19terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector19pin" layer="copper0" />
+          <p svgId="connector19pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>

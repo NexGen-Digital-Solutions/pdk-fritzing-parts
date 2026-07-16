@@ -1,0 +1,55 @@
+{
+  "libraryName": "PDK Access Control",
+  "binFilename": "PDK Access Control.fzb",
+  "binIcon": "PDK.png",
+  "parts": [
+    {
+      "title": "PDK Red Max Enclosure",
+      "moduleId": "PDK_Red_Max_Enclosure_v1",
+      "fzpFilename": "PDK_Red_Max_Enclosure.fzp",
+      "order": 1
+    },
+    {
+      "title": "Altronix eFlow102NB",
+      "moduleId": "Altronix_eFlow102NB_v1",
+      "fzpFilename": "Altronix_eFlow102NB.fzp",
+      "order": 2
+    },
+    {
+      "title": "PDK Red 1 Expander (R1E)",
+      "moduleId": "PDK_Red_1_Expander_R1E_v1",
+      "fzpFilename": "PDK_Red_1_Expander_R1E.fzp",
+      "order": 3
+    },
+    {
+      "title": "PDK Red 2 Expander (R2E)",
+      "moduleId": "PDK_Red_2_Expander_R2E_v1",
+      "fzpFilename": "PDK_Red_2_Expander_R2E.fzp",
+      "order": 4
+    },
+    {
+      "title": "PDK Red 4 Expander (R4E)",
+      "moduleId": "PDK_Red_4_Expander_R4E_v1",
+      "fzpFilename": "PDK_Red_4_Expander_R4E.fzp",
+      "order": 5
+    },
+    {
+      "title": "PDK Red Aux 8 (A8)",
+      "moduleId": "PDK_Red_Aux_8_A8_v1",
+      "fzpFilename": "PDK_Red_Aux_8_A8.fzp",
+      "order": 6
+    },
+    {
+      "title": "PDK WiMAC Module",
+      "moduleId": "PDK_WiMAC_Module_v1",
+      "fzpFilename": "PDK_WiMAC_Module.fzp",
+      "order": 7
+    },
+    {
+      "title": "PDK Red Series PoE Module",
+      "moduleId": "PDK_Red_Series_PoE_Module_v1",
+      "fzpFilename": "PDK_Red_Series_PoE_Module.fzp",
+      "order": 8
+    }
+  ]
+}

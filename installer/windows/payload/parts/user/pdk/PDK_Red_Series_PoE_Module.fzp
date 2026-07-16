@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module moduleId="PDK_Red_Series_PoE_Module_v1" fritzingVersion="1.0.7" referenceFile="PDK_Red_Series_PoE_Module.fzp">
+  <version>1</version>
+  <author>NexGen Digital Solutions contributors</author>
+  <title>PDK Red Series PoE Module</title>
+  <label>PDK PoE Module</label>
+  <date>2026-07-16</date>
+  <tags>
+    <tag>PDK</tag>
+    <tag>ProdataKey</tag>
+    <tag>Red Series PoE Module</tag>
+    <tag>access control</tag>
+    <tag>daughtercard</tag>
+    <tag>module</tag>
+  </tags>
+  <properties>
+    <property name="family">Access Control Daughtercard</property>
+    <property name="part number">Red Series PoE Module</property>
+    <property name="dimensions">1.7231 in x 1.0194 in</property>
+    <property name="calibration">Manufacturer installation graphic</property>
+    <property name="SVG coordinate density">72 units per inch</property>
+  </properties>
+  <description>PDK Red Series Power-over-Ethernet daughtercard. Its footprint and the relative locations of the six-pin PoE Out and four-pin PoE In headers are calibrated from the manufacturer Red 2 installation graphic. Electrical assignments remain generic pending a verified factory pinout.</description>
+  <views>
+    <iconView>
+      <layers image="icon/PDK_Red_Series_PoE_Module_icon.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/PDK_Red_Series_PoE_Module_breadboard.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/PDK_Red_Series_PoE_Module_schematic.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/PDK_Red_Series_PoE_Module_pcb.svg">
+        <layer layerId="copper0" />
+        <layer layerId="copper1" />
+        <layer layerId="silkscreen" />
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="PoE Out Pin 1">
+      <description>PoE Out Pin 1; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector0pin" layer="copper0" />
+          <p svgId="connector0pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="PoE Out Pin 2">
+      <description>PoE Out Pin 2; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1pin" layer="copper0" />
+          <p svgId="connector1pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="PoE Out Pin 3">
+      <description>PoE Out Pin 3; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2pin" layer="copper0" />
+          <p svgId="connector2pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="PoE Out Pin 4">
+      <description>PoE Out Pin 4; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector3pin" layer="copper0" />
+          <p svgId="connector3pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="PoE Out Pin 5">
+      <description>PoE Out Pin 5; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector4pin" layer="breadboard" terminalId="connector4terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector4pin" layer="copper0" />
+          <p svgId="connector4pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="PoE Out Pin 6">
+      <description>PoE Out Pin 6; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector5pin" layer="breadboard" terminalId="connector5terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector5pin" layer="copper0" />
+          <p svgId="connector5pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="PoE In Pin 1">
+      <description>PoE In Pin 1; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector6pin" layer="breadboard" terminalId="connector6terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector6pin" layer="copper0" />
+          <p svgId="connector6pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="PoE In Pin 2">
+      <description>PoE In Pin 2; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector7pin" layer="breadboard" terminalId="connector7terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector7pin" layer="copper0" />
+          <p svgId="connector7pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="PoE In Pin 3">
+      <description>PoE In Pin 3; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector8pin" layer="breadboard" terminalId="connector8terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector8pin" layer="copper0" />
+          <p svgId="connector8pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="PoE In Pin 4">
+      <description>PoE In Pin 4; electrical assignment remains generic pending a verified factory pinout.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector9pin" layer="breadboard" terminalId="connector9terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector9pin" layer="copper0" />
+          <p svgId="connector9pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>

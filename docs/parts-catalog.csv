@@ -1,0 +1,9 @@
+vendor,slug,title,part_number,module_id,width_in,height_in,connectors,part_file,source_file
+PDK,red-max-enclosure,PDK Red Max Enclosure,RMAX,PDK_Red_Max_Enclosure_v1,14.25,18.25,0,PDK_Red_Max_Enclosure.fzpz,PDK_Red_Max_Enclosure_Source.zip
+Altronix,eflow102nb,Altronix eFlow102NB,eFlow102NB,Altronix_eFlow102NB_v1,5.4273,3.1752,19,Altronix_eFlow102NB.fzpz,Altronix_eFlow102NB_Source.zip
+PDK,r1e,PDK Red 1 Expander (R1E),R1E,PDK_Red_1_Expander_R1E_v1,2.1466,2.6013,20,PDK_Red_1_Expander_R1E.fzpz,PDK_Red_1_Expander_R1E_Source.zip
+PDK,r2e,PDK Red 2 Expander (R2E),R2E,PDK_Red_2_Expander_R2E_v1,3.0869,2.5901,36,PDK_Red_2_Expander_R2E.fzpz,PDK_Red_2_Expander_R2E_Source.zip
+PDK,r4e,PDK Red 4 Expander (R4E),R4E,PDK_Red_4_Expander_R4E_v1,3.0518,2.7302,68,PDK_Red_4_Expander_R4E.fzpz,PDK_Red_4_Expander_R4E_Source.zip
+PDK,red-aux-8,PDK Red Aux 8 (A8),A8,PDK_Red_Aux_8_A8_v1,3.0895,2.8192,76,PDK_Red_Aux_8_A8.fzpz,PDK_Red_Aux_8_A8_Source.zip
+PDK,wimac-module,PDK WiMAC Module,WiMAC,PDK_WiMAC_Module_v1,0.6923,1.1122,20,PDK_WiMAC_Module.fzpz,PDK_WiMAC_Module_Source.zip
+PDK,red-series-poe-module,PDK Red Series PoE Module,PoE Module,PDK_Red_Series_PoE_Module_v1,1.7231,1.0194,10,PDK_Red_Series_PoE_Module.fzpz,PDK_Red_Series_PoE_Module_Source.zip

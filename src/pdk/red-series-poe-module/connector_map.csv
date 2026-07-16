@@ -1,0 +1,11 @@
+Connector ID,Name,Description
+connector0,"PoE Out Pin 1","PoE Out Pin 1; electrical assignment remains generic pending a verified factory pinout."
+connector1,"PoE Out Pin 2","PoE Out Pin 2; electrical assignment remains generic pending a verified factory pinout."
+connector2,"PoE Out Pin 3","PoE Out Pin 3; electrical assignment remains generic pending a verified factory pinout."
+connector3,"PoE Out Pin 4","PoE Out Pin 4; electrical assignment remains generic pending a verified factory pinout."
+connector4,"PoE Out Pin 5","PoE Out Pin 5; electrical assignment remains generic pending a verified factory pinout."
+connector5,"PoE Out Pin 6","PoE Out Pin 6; electrical assignment remains generic pending a verified factory pinout."
+connector6,"PoE In Pin 1","PoE In Pin 1; electrical assignment remains generic pending a verified factory pinout."
+connector7,"PoE In Pin 2","PoE In Pin 2; electrical assignment remains generic pending a verified factory pinout."
+connector8,"PoE In Pin 3","PoE In Pin 3; electrical assignment remains generic pending a verified factory pinout."
+connector9,"PoE In Pin 4","PoE In Pin 4; electrical assignment remains generic pending a verified factory pinout."

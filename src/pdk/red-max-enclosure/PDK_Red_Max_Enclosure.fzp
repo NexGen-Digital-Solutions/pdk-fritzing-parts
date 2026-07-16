@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module moduleId="PDK_Red_Max_Enclosure_v1" fritzingVersion="1.0.7" referenceFile="PDK_Red_Max_Enclosure.fzp">
+  <version>1</version>
+  <author>Created for NexGen Digital Solutions from the user-supplied exact 1:1 PDK artwork</author>
+  <title>PDK Red Max Enclosure</title>
+  <label>PDK Red Max</label>
+  <date>2026-07-15</date>
+  <url>https://support.pdk.io/hc/en-us/articles/4419107511575-Red-Max-User-Manual</url>
+  <tags>
+    <tag>PDK</tag>
+    <tag>ProdataKey</tag>
+    <tag>Red Max</tag>
+    <tag>RMAX</tag>
+    <tag>enclosure</tag>
+    <tag>1:1</tag>
+    <tag>panel layout</tag>
+  </tags>
+  <properties>
+    <property name="family">Access Control Enclosure</property>
+    <property name="variant">Red Max Exact 1:1</property>
+    <property name="part number">RMAX</property>
+    <property name="dimensions">14.25 in x 18.25 in</property>
+    <property name="source scale">1368 x 1752 px at exactly 96 px/in</property>
+    <property name="SVG coordinate density">72 units per inch</property>
+    <property name="renderer compatibility">Plain default SVG namespace; no generated ns0 prefixes</property>
+  </properties>
+  <description>PDK Red Max enclosure using the user-supplied exact 1:1 artwork. The image is 1368 x 1752 pixels and is explicitly mapped at 96 pixels per inch, producing exactly 14.25 x 18.25 inches with no aspect-ratio distortion. This revision removes generated namespace prefixes that can break Qt/Fritzing SVG rendering and normalizes every SVG view to 72 coordinate units per physical inch, matching established Fritzing part conventions.</description>
+  <views>
+    <iconView>
+      <layers image="icon/PDK_Red_Max_Enclosure_icon.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/PDK_Red_Max_Enclosure_breadboard.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/PDK_Red_Max_Enclosure_schematic.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/PDK_Red_Max_Enclosure_pcb.svg">
+        <layer layerId="silkscreen" />
+      </layers>
+    </pcbView>
+  </views>
+  <connectors />
+</module>

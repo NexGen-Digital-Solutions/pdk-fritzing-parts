@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="4.000000in" height="5.000000in" viewBox="0 0 288.000000 360.000000" version="1.2" baseProfile="tiny">
+  <g id="schematic" transform="scale(0.072 0.072)">
+    <rect x="80" y="80" width="3840" height="4840" rx="80" fill="#f8b632" stroke="#222" stroke-width="30" />
+    <text x="2000" y="2050" text-anchor="middle" font-family="Arial" font-size="250" font-weight="bold">PDK RED MAX</text>
+    <text x="2000" y="2420" text-anchor="middle" font-family="Arial" font-size="175">EXACT 1:1 ENCLOSURE</text>
+    <text x="2000" y="2800" text-anchor="middle" font-family="Arial" font-size="115">14.25 × 18.25 IN</text>
+    <text x="2000" y="3130" text-anchor="middle" font-family="Arial" font-size="100">1368 × 1752 PX AT 96 PX/IN</text>
+    <text x="2000" y="3450" text-anchor="middle" font-family="Arial" font-size="95">NO ELECTRICAL CONNECTIONS</text>
+  </g>
+</svg>

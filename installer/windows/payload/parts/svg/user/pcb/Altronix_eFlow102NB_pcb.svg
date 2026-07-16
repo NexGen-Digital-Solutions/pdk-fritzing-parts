@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="5.427318in" height="3.175194in" viewBox="0 0 390.766896 228.613968" version="1.2" baseProfile="tiny">
+  <g id="silkscreen" transform="scale(0.0521022528 0.0496986886957)">
+    <rect x="18" y="18" width="7464.000" height="4564.000" rx="40" fill="none" stroke="#ffffff" stroke-width="20" />
+    <text x="3750.000" y="2024.000" text-anchor="middle" font-family="Arial, sans-serif" font-size="240" font-weight="bold" fill="#ffffff">
+      ALTRONIX eFLOW102NB
+    </text>
+    <text x="3750.000" y="2438.000" text-anchor="middle" font-family="Arial, sans-serif" font-size="125" fill="#ffffff">
+      REFERENCE-ONLY FOOTPRINT
+    </text>
+    <text x="3750.000" y="2760.000" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" fill="#ffffff">
+      NOT FOR PCB FABRICATION
+    </text>
+  </g>
+  <g id="copper1" transform="scale(0.0521022528 0.0496986886957)">
+    <g id="copper0">
+      <circle id="connector0pin" cx="890.62" cy="4328.59" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector1pin" cx="1265.62" cy="4328.59" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector2pin" cx="1645.31" cy="4328.59" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector3pin" cx="3464.06" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector4pin" cx="3665.62" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector5pin" cx="3867.19" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector6pin" cx="4068.75" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector7pin" cx="4270.31" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector8pin" cx="4471.88" cy="4155.44" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector9pin" cx="5521.88" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector10pin" cx="5718.75" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector11pin" cx="5920.31" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector12pin" cx="6117.19" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector13pin" cx="6314.06" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector14pin" cx="6510.94" cy="4225.64" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector15pin" cx="6989.06" cy="1431.94" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector16pin" cx="6989.06" cy="1113.73" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector17pin" cx="6989.06" cy="2980.87" r="42" fill="none" stroke="#f7bd13" stroke-width="26" /><circle id="connector18pin" cx="6989.06" cy="2662.67" r="42" fill="none" stroke="#f7bd13" stroke-width="26" />
+    </g>
+  </g>
+</svg>

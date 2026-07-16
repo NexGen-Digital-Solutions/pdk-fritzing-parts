@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module moduleId="PDK_Red_2_Expander_R2E_v1" fritzingVersion="1.0.7" referenceFile="PDK_Red_2_Expander_R2E.fzp">
+  <version>1</version>
+  <author>Created for NexGen Digital Solutions from PDK documentation</author>
+  <title>PDK Red 2 Expander (R2E)</title>
+  <label>PDK R2E</label>
+  <date>2026-07-15</date>
+  <url>https://support.pdk.io/hc/en-us/articles/8425047451671-Red-2-Expander-User-Manual</url>
+  <tags>
+    <tag>PDK</tag>
+    <tag>ProdataKey</tag>
+    <tag>R2E</tag>
+    <tag>access control</tag>
+    <tag>OSDP</tag>
+    <tag>Wiegand</tag>
+    <tag>Red Expander</tag>
+  </tags>
+  <properties>
+    <property name="family">Access Control Controller</property>
+    <property name="variant">PDK Red 2 Expander (R2E)</property>
+    <property name="part number">R2E</property>
+    <property name="dimensions">3.0869 in x 2.5901 in</property>
+    <property name="terminal pitch assumption">5.08 mm</property>
+    <property name="mounting pattern">Lower wide Red Max slot</property>
+    <property name="mounting hole spacing">4.3958 in x 1.9002 in</property>
+    <property name="calibration source">Red Max exact 1368 x 1752 px image at 96 DPI</property>
+    <property name="SVG coordinate density">72 units per inch</property>
+    <property name="renderer compatibility">Plain default SVG namespace; no generated ns0 prefixes</property>
+    <property name="artwork source">Manufacturer manual board image</property>
+    <property name="mount pattern">1.85135 in x 1.90021 in</property>
+  </properties>
+  <description>PDK Red 2 Expander two-door access controller. Includes two reader ports, two sets of Input A and Input B, two Form-C relays, two relay wet/dry jumpers, two OSDP jumper headers, 12 to 24 VDC power input, and a logical battery connector. The breadboard footprint is estimated using a 5.08 mm removable-terminal pitch. Recalibrated against the exact 1368 x 1752 px, 96 DPI Red Max enclosure artwork. Target pattern: Lower wide Red Max slot; mounting-hole spacing 4.3958 x 1.9002 inches. Resulting breadboard footprint: 4.9146 x 2.7909 inches. This revision removes generated namespace prefixes that can break Qt/Fritzing SVG rendering and normalizes every SVG view to 72 coordinate units per physical inch, matching established Fritzing part conventions. This revision replaces the prior vector reconstruction with actual manufacturer board artwork. The artwork is calibrated so its mounting holes match the exact Red Max narrow pattern of 1.85135 x 1.90021 inches. Resulting board footprint: 3.0869 x 2.5901 inches.</description>
+  <views>
+    <iconView>
+      <layers image="icon/PDK_Red_2_Expander_R2E_icon.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/PDK_Red_2_Expander_R2E_breadboard.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/PDK_Red_2_Expander_R2E_schematic.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/PDK_Red_2_Expander_R2E_pcb.svg">
+        <layer layerId="copper0" />
+        <layer layerId="copper1" />
+        <layer layerId="silkscreen" />
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="female" name="Door 1 Reader +">
+      <description>Reader positive 12VDC output</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector0pin" layer="copper0" />
+          <p svgId="connector0pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="female" name="Door 1 Reader -">
+      <description>Reader negative / ground</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1pin" layer="copper0" />
+          <p svgId="connector1pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="female" name="Door 1 Reader 0">
+      <description>Wiegand Data 0 or OSDP B</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2pin" layer="copper0" />
+          <p svgId="connector2pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="female" name="Door 1 Reader 1">
+      <description>Wiegand Data 1 or OSDP A</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector3pin" layer="copper0" />
+          <p svgId="connector3pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="female" name="Door 1 Reader L">
+      <description>Reader LED trigger output</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector4pin" layer="breadboard" terminalId="connector4terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector4pin" layer="copper0" />
+          <p svgId="connector4pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="female" name="Door 1 Input A">
+      <description>Door position switch input or assignable Input A</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector5pin" layer="breadboard" terminalId="connector5terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector5pin" layer="copper0" />
+          <p svgId="connector5pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="female" name="Door 1 Input B">
+      <description>Request-to-exit input or assignable Input B</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector6pin" layer="breadboard" terminalId="connector6terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector6pin" layer="copper0" />
+          <p svgId="connector6pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="female" name="Door 1 Input -">
+      <description>Input ground / common</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector7pin" layer="breadboard" terminalId="connector7terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector7pin" layer="copper0" />
+          <p svgId="connector7pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="female" name="Door 1 Relay NC">
+      <description>Form-C relay normally closed contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector8pin" layer="breadboard" terminalId="connector8terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector8pin" layer="copper0" />
+          <p svgId="connector8pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="female" name="Door 1 Relay C">
+      <description>Form-C relay common contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector9pin" layer="breadboard" terminalId="connector9terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector9pin" layer="copper0" />
+          <p svgId="connector9pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="female" name="Door 1 Relay NO">
+      <description>Form-C relay normally open contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector10pin" layer="breadboard" terminalId="connector10terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector10pin" layer="schematic" terminalId="connector10terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector10pin" layer="copper0" />
+          <p svgId="connector10pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="female" name="Door 2 Reader +">
+      <description>Reader positive 12VDC output</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector11pin" layer="breadboard" terminalId="connector11terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector11pin" layer="schematic" terminalId="connector11terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector11pin" layer="copper0" />
+          <p svgId="connector11pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="female" name="Door 2 Reader -">
+      <description>Reader negative / ground</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector12pin" layer="breadboard" terminalId="connector12terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector12pin" layer="schematic" terminalId="connector12terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector12pin" layer="copper0" />
+          <p svgId="connector12pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="female" name="Door 2 Reader 0">
+      <description>Wiegand Data 0 or OSDP B</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector13pin" layer="breadboard" terminalId="connector13terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector13pin" layer="schematic" terminalId="connector13terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector13pin" layer="copper0" />
+          <p svgId="connector13pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="female" name="Door 2 Reader 1">
+      <description>Wiegand Data 1 or OSDP A</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector14pin" layer="breadboard" terminalId="connector14terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector14pin" layer="schematic" terminalId="connector14terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector14pin" layer="copper0" />
+          <p svgId="connector14pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="female" name="Door 2 Reader L">
+      <description>Reader LED trigger output</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector15pin" layer="breadboard" terminalId="connector15terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector15pin" layer="schematic" terminalId="connector15terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector15pin" layer="copper0" />
+          <p svgId="connector15pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="female" name="Door 2 Input A">
+      <description>Door position switch input or assignable Input A</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector16pin" layer="breadboard" terminalId="connector16terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector16pin" layer="schematic" terminalId="connector16terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector16pin" layer="copper0" />
+          <p svgId="connector16pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="female" name="Door 2 Input B">
+      <description>Request-to-exit input or assignable Input B</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector17pin" layer="breadboard" terminalId="connector17terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector17pin" layer="schematic" terminalId="connector17terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector17pin" layer="copper0" />
+          <p svgId="connector17pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="female" name="Door 2 Input -">
+      <description>Input ground / common</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector18pin" layer="breadboard" terminalId="connector18terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector18pin" layer="schematic" terminalId="connector18terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector18pin" layer="copper0" />
+          <p svgId="connector18pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector19" type="female" name="Door 2 Relay NC">
+      <description>Form-C relay normally closed contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector19pin" layer="breadboard" terminalId="connector19terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector19pin" layer="schematic" terminalId="connector19terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector19pin" layer="copper0" />
+          <p svgId="connector19pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector20" type="female" name="Door 2 Relay C">
+      <description>Form-C relay common contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector20pin" layer="breadboard" terminalId="connector20terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector20pin" layer="schematic" terminalId="connector20terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector20pin" layer="copper0" />
+          <p svgId="connector20pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector21" type="female" name="Door 2 Relay NO">
+      <description>Form-C relay normally open contact</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector21pin" layer="breadboard" terminalId="connector21terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector21pin" layer="schematic" terminalId="connector21terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector21pin" layer="copper0" />
+          <p svgId="connector21pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector22" type="female" name="Door 1 Relay Jumper +">
+      <description>Door 1 relay wet/dry jumper terminal +</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector22pin" layer="breadboard" terminalId="connector22terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector22pin" layer="schematic" terminalId="connector22terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector22pin" layer="copper0" />
+          <p svgId="connector22pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector23" type="female" name="Door 1 Relay Jumper BUS">
+      <description>Door 1 relay wet/dry jumper terminal BUS</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector23pin" layer="breadboard" terminalId="connector23terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector23pin" layer="schematic" terminalId="connector23terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector23pin" layer="copper0" />
+          <p svgId="connector23pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector24" type="female" name="Door 1 Relay Jumper -">
+      <description>Door 1 relay wet/dry jumper terminal -</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector24pin" layer="breadboard" terminalId="connector24terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector24pin" layer="schematic" terminalId="connector24terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector24pin" layer="copper0" />
+          <p svgId="connector24pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector25" type="female" name="Door 2 Relay Jumper +">
+      <description>Door 2 relay wet/dry jumper terminal +</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector25pin" layer="breadboard" terminalId="connector25terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector25pin" layer="schematic" terminalId="connector25terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector25pin" layer="copper0" />
+          <p svgId="connector25pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector26" type="female" name="Door 2 Relay Jumper BUS">
+      <description>Door 2 relay wet/dry jumper terminal BUS</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector26pin" layer="breadboard" terminalId="connector26terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector26pin" layer="schematic" terminalId="connector26terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector26pin" layer="copper0" />
+          <p svgId="connector26pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector27" type="female" name="Door 2 Relay Jumper -">
+      <description>Door 2 relay wet/dry jumper terminal -</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector27pin" layer="breadboard" terminalId="connector27terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector27pin" layer="schematic" terminalId="connector27terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector27pin" layer="copper0" />
+          <p svgId="connector27pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector28" type="female" name="Door 1 OSDP Jumper Pin 1">
+      <description>Door 1 OSDP multidrop jumper pin 1</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector28pin" layer="breadboard" terminalId="connector28terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector28pin" layer="schematic" terminalId="connector28terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector28pin" layer="copper0" />
+          <p svgId="connector28pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector29" type="female" name="Door 1 OSDP Jumper Pin 2">
+      <description>Door 1 OSDP multidrop jumper pin 2</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector29pin" layer="breadboard" terminalId="connector29terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector29pin" layer="schematic" terminalId="connector29terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector29pin" layer="copper0" />
+          <p svgId="connector29pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector30" type="female" name="Door 2 OSDP Jumper Pin 1">
+      <description>Door 2 OSDP multidrop jumper pin 1</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector30pin" layer="breadboard" terminalId="connector30terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector30pin" layer="schematic" terminalId="connector30terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector30pin" layer="copper0" />
+          <p svgId="connector30pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector31" type="female" name="Door 2 OSDP Jumper Pin 2">
+      <description>Door 2 OSDP multidrop jumper pin 2</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector31pin" layer="breadboard" terminalId="connector31terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector31pin" layer="schematic" terminalId="connector31terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector31pin" layer="copper0" />
+          <p svgId="connector31pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector32" type="female" name="Controller Power +">
+      <description>Controller power input, positive 12 to 24 VDC</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector32pin" layer="breadboard" terminalId="connector32terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector32pin" layer="schematic" terminalId="connector32terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector32pin" layer="copper0" />
+          <p svgId="connector32pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector33" type="female" name="Controller Power GND">
+      <description>Controller power input, negative / ground</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector33pin" layer="breadboard" terminalId="connector33terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector33pin" layer="schematic" terminalId="connector33terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector33pin" layer="copper0" />
+          <p svgId="connector33pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector34" type="female" name="Battery Pin 1">
+      <description>Keyed battery connector pin 1; verify polarity against current PDK documentation and factory lead</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector34pin" layer="breadboard" terminalId="connector34terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector34pin" layer="schematic" terminalId="connector34terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector34pin" layer="copper0" />
+          <p svgId="connector34pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector35" type="female" name="Battery Pin 2">
+      <description>Keyed battery connector pin 2; verify polarity against current PDK documentation and factory lead</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector35pin" layer="breadboard" terminalId="connector35terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector35pin" layer="schematic" terminalId="connector35terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector35pin" layer="copper0" />
+          <p svgId="connector35pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>

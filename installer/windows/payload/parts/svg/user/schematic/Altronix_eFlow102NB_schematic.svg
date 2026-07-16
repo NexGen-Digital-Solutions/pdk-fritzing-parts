@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="9.000000in" height="6.500000in" viewBox="0 0 648.000000 468.000000" version="1.2" baseProfile="tiny">
+  <style transform="scale(0.072 0.072)">
+    .body { fill:#f2f2f2; stroke:#333333; stroke-width:28; }
+    .pin { stroke:#555555; stroke-width:24; fill:none; }
+    .terminal { fill:none; stroke:none; }
+    .pinLabel { font-family:Arial, sans-serif; font-size:120px; fill:#222222; }
+    .bottomLabel { font-family:Arial, sans-serif; font-size:95px; font-weight:bold; fill:#222222; }
+    .topLabel { font-family:Arial, sans-serif; font-size:95px; font-weight:bold; fill:#222222; }
+    .title { font-family:Arial, sans-serif; font-size:190px; font-weight:bold; fill:#111111; }
+    .subtitle { font-family:Arial, sans-serif; font-size:120px; fill:#555555; }
+    .section { font-family:Arial, sans-serif; font-size:130px; font-weight:bold; fill:#111111; }
+    .note { font-family:Arial, sans-serif; font-size:92px; fill:#8a2b2b; }
+  </style>
+  <g id="schematic" transform="scale(0.072 0.072)">
+    <rect x="700" y="450" width="7600" height="5400" rx="90" class="body" />
+
+    <text x="4500" y="1050" text-anchor="middle" class="title">ALTRONIX eFLOW102NB</text>
+    <text x="4500" y="1260" text-anchor="middle" class="subtitle">12VDC • 10A POWER SUPPLY / CHARGER</text>
+
+    <text x="1050" y="1000" class="section">120VAC INPUT</text>
+    <text x="1050" y="2520" class="section">FACP INTERFACE</text>
+
+    <text x="7950" y="1000" text-anchor="end" class="section">MAIN OUTPUT</text>
+    <text x="7950" y="1950" text-anchor="end" class="section">BATTERY</text>
+    <text x="7950" y="2850" text-anchor="end" class="section">AUXILIARY</text>
+
+    <text x="4500" y="5520" text-anchor="middle" class="note">
+      WIRING REFERENCE PART. FOLLOW CURRENT ALTRONIX INSTRUCTIONS AND APPLICABLE ELECTRICAL CODES.
+    </text>
+
+    
+        <line id="connector0pin" x1="0" y1="1200" x2="700" y2="1200" class="pin" />
+        <rect id="connector0terminal" x="-3" y="1197" width="6" height="6" class="terminal" />
+        <text x="740" y="1238" class="pinLabel">AC L</text>
+        <line id="connector1pin" x1="0" y1="1500" x2="700" y2="1500" class="pin" />
+        <rect id="connector1terminal" x="-3" y="1497" width="6" height="6" class="terminal" />
+        <text x="740" y="1538" class="pinLabel">AC GND</text>
+        <line id="connector2pin" x1="0" y1="1800" x2="700" y2="1800" class="pin" />
+        <rect id="connector2terminal" x="-3" y="1797" width="6" height="6" class="terminal" />
+        <text x="740" y="1838" class="pinLabel">AC N</text>
+        <line id="connector3pin" x1="1500" y1="6500" x2="1500" y2="5850" class="pin" />
+        <rect id="connector3terminal" x="1497" y="6497" width="6" height="6" class="terminal" />
+        <text x="1500" y="5780" text-anchor="middle" class="bottomLabel">ACF NC</text>
+        <line id="connector4pin" x1="2000" y1="6500" x2="2000" y2="5850" class="pin" />
+        <rect id="connector4terminal" x="1997" y="6497" width="6" height="6" class="terminal" />
+        <text x="2000" y="5780" text-anchor="middle" class="bottomLabel">ACF C</text>
+        <line id="connector5pin" x1="2500" y1="6500" x2="2500" y2="5850" class="pin" />
+        <rect id="connector5terminal" x="2497" y="6497" width="6" height="6" class="terminal" />
+        <text x="2500" y="5780" text-anchor="middle" class="bottomLabel">ACF NO</text>
+        <line id="connector6pin" x1="4850" y1="6500" x2="4850" y2="5850" class="pin" />
+        <rect id="connector6terminal" x="4847" y="6497" width="6" height="6" class="terminal" />
+        <text x="4850" y="5780" text-anchor="middle" class="bottomLabel">BATF NC</text>
+        <line id="connector7pin" x1="5350" y1="6500" x2="5350" y2="5850" class="pin" />
+        <rect id="connector7terminal" x="5347" y="6497" width="6" height="6" class="terminal" />
+        <text x="5350" y="5780" text-anchor="middle" class="bottomLabel">BATF C</text>
+        <line id="connector8pin" x1="5850" y1="6500" x2="5850" y2="5850" class="pin" />
+        <rect id="connector8terminal" x="5847" y="6497" width="6" height="6" class="terminal" />
+        <text x="5850" y="5780" text-anchor="middle" class="bottomLabel">BATF NO</text>
+        <line id="connector9pin" x1="0" y1="2750" x2="700" y2="2750" class="pin" />
+        <rect id="connector9terminal" x="-3" y="2747" width="6" height="6" class="terminal" />
+        <text x="740" y="2788" class="pinLabel">TRIG</text>
+        <line id="connector10pin" x1="0" y1="3050" x2="700" y2="3050" class="pin" />
+        <rect id="connector10terminal" x="-3" y="3047" width="6" height="6" class="terminal" />
+        <text x="740" y="3088" class="pinLabel">EOL</text>
+        <line id="connector11pin" x1="0" y1="3350" x2="700" y2="3350" class="pin" />
+        <rect id="connector11terminal" x="-3" y="3347" width="6" height="6" class="terminal" />
+        <text x="740" y="3388" class="pinLabel">RST NO</text>
+        <line id="connector12pin" x1="0" y1="3650" x2="700" y2="3650" class="pin" />
+        <rect id="connector12terminal" x="-3" y="3647" width="6" height="6" class="terminal" />
+        <text x="740" y="3688" class="pinLabel">RST GND</text>
+        <line id="connector13pin" x1="9000" y1="3000" x2="8300" y2="3000" class="pin" />
+        <rect id="connector13terminal" x="8997" y="2997" width="6" height="6" class="terminal" />
+        <text x="8260" y="3038" text-anchor="end" class="pinLabel">AUX +</text>
+        <line id="connector14pin" x1="9000" y1="3300" x2="8300" y2="3300" class="pin" />
+        <rect id="connector14terminal" x="8997" y="3297" width="6" height="6" class="terminal" />
+        <text x="8260" y="3338" text-anchor="end" class="pinLabel">AUX -</text>
+        <line id="connector15pin" x1="9000" y1="1200" x2="8300" y2="1200" class="pin" />
+        <rect id="connector15terminal" x="8997" y="1197" width="6" height="6" class="terminal" />
+        <text x="8260" y="1238" text-anchor="end" class="pinLabel">DC -</text>
+        <line id="connector16pin" x1="9000" y1="1500" x2="8300" y2="1500" class="pin" />
+        <rect id="connector16terminal" x="8997" y="1497" width="6" height="6" class="terminal" />
+        <text x="8260" y="1538" text-anchor="end" class="pinLabel">DC +</text>
+        <line id="connector17pin" x1="9000" y1="2150" x2="8300" y2="2150" class="pin" />
+        <rect id="connector17terminal" x="8997" y="2147" width="6" height="6" class="terminal" />
+        <text x="8260" y="2188" text-anchor="end" class="pinLabel">BAT -</text>
+        <line id="connector18pin" x1="9000" y1="2450" x2="8300" y2="2450" class="pin" />
+        <rect id="connector18terminal" x="8997" y="2447" width="6" height="6" class="terminal" />
+        <text x="8260" y="2488" text-anchor="end" class="pinLabel">BAT +</text>
+  </g>
+</svg>

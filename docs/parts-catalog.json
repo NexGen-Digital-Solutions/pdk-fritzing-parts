@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-07-16",
+  "parts": [
+    {
+      "vendor": "PDK",
+      "slug": "red-max-enclosure",
+      "title": "PDK Red Max Enclosure",
+      "part_number": "RMAX",
+      "module_id": "PDK_Red_Max_Enclosure_v1",
+      "width_in": 14.25,
+      "height_in": 18.25,
+      "connectors": 0,
+      "part_file": "PDK_Red_Max_Enclosure.fzpz",
+      "source_file": "PDK_Red_Max_Enclosure_Source.zip"
+    },
+    {
+      "vendor": "Altronix",
+      "slug": "eflow102nb",
+      "title": "Altronix eFlow102NB",
+      "part_number": "eFlow102NB",
+      "module_id": "Altronix_eFlow102NB_v1",
+      "width_in": 5.4273,
+      "height_in": 3.1752,
+      "connectors": 19,
+      "part_file": "Altronix_eFlow102NB.fzpz",
+      "source_file": "Altronix_eFlow102NB_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "r1e",
+      "title": "PDK Red 1 Expander (R1E)",
+      "part_number": "R1E",
+      "module_id": "PDK_Red_1_Expander_R1E_v1",
+      "width_in": 2.1466,
+      "height_in": 2.6013,
+      "connectors": 20,
+      "part_file": "PDK_Red_1_Expander_R1E.fzpz",
+      "source_file": "PDK_Red_1_Expander_R1E_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "r2e",
+      "title": "PDK Red 2 Expander (R2E)",
+      "part_number": "R2E",
+      "module_id": "PDK_Red_2_Expander_R2E_v1",
+      "width_in": 3.0869,
+      "height_in": 2.5901,
+      "connectors": 36,
+      "part_file": "PDK_Red_2_Expander_R2E.fzpz",
+      "source_file": "PDK_Red_2_Expander_R2E_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "r4e",
+      "title": "PDK Red 4 Expander (R4E)",
+      "part_number": "R4E",
+      "module_id": "PDK_Red_4_Expander_R4E_v1",
+      "width_in": 3.0518,
+      "height_in": 2.7302,
+      "connectors": 68,
+      "part_file": "PDK_Red_4_Expander_R4E.fzpz",
+      "source_file": "PDK_Red_4_Expander_R4E_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "red-aux-8",
+      "title": "PDK Red Aux 8 (A8)",
+      "part_number": "A8",
+      "module_id": "PDK_Red_Aux_8_A8_v1",
+      "width_in": 3.0895,
+      "height_in": 2.8192,
+      "connectors": 76,
+      "part_file": "PDK_Red_Aux_8_A8.fzpz",
+      "source_file": "PDK_Red_Aux_8_A8_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "wimac-module",
+      "title": "PDK WiMAC Module",
+      "part_number": "WiMAC",
+      "module_id": "PDK_WiMAC_Module_v1",
+      "width_in": 0.6923,
+      "height_in": 1.1122,
+      "connectors": 20,
+      "part_file": "PDK_WiMAC_Module.fzpz",
+      "source_file": "PDK_WiMAC_Module_Source.zip"
+    },
+    {
+      "vendor": "PDK",
+      "slug": "red-series-poe-module",
+      "title": "PDK Red Series PoE Module",
+      "part_number": "PoE Module",
+      "module_id": "PDK_Red_Series_PoE_Module_v1",
+      "width_in": 1.7231,
+      "height_in": 1.0194,
+      "connectors": 10,
+      "part_file": "PDK_Red_Series_PoE_Module.fzpz",
+      "source_file": "PDK_Red_Series_PoE_Module_Source.zip"
+    }
+  ]
+}

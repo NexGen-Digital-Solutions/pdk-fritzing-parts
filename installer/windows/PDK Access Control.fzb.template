@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.7" icon="PDK.png">
+  <title>PDK Access Control</title>
+  <instances>
+    <instance moduleIdRef="PDK_Red_Max_Enclosure_v1" modelIndex="1" path="{PARTS_ROOT}\\PDK_Red_Max_Enclosure.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="Altronix_eFlow102NB_v1" modelIndex="2" path="{PARTS_ROOT}\\Altronix_eFlow102NB.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_Red_1_Expander_R1E_v1" modelIndex="3" path="{PARTS_ROOT}\\PDK_Red_1_Expander_R1E.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_Red_2_Expander_R2E_v1" modelIndex="4" path="{PARTS_ROOT}\\PDK_Red_2_Expander_R2E.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_Red_4_Expander_R4E_v1" modelIndex="5" path="{PARTS_ROOT}\\PDK_Red_4_Expander_R4E.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_Red_Aux_8_A8_v1" modelIndex="6" path="{PARTS_ROOT}\\PDK_Red_Aux_8_A8.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_WiMAC_Module_v1" modelIndex="7" path="{PARTS_ROOT}\\PDK_WiMAC_Module.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+    <instance moduleIdRef="PDK_Red_Series_PoE_Module_v1" modelIndex="8" path="{PARTS_ROOT}\\PDK_Red_Series_PoE_Module.fzp">
+      <views>
+        <iconView layer="icon">
+          <geometry z="-1" x="-1" y="-1"/>
+        </iconView>
+      </views>
+    </instance>
+  </instances>
+</module>

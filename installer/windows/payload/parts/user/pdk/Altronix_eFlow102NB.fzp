@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module moduleId="Altronix_eFlow102NB_v1" fritzingVersion="1.0.7" referenceFile="Altronix_eFlow102NB.fzp">
+  <version>1</version>
+  <author>Created for NexGen Digital Solutions from Altronix documentation and user-supplied artwork</author>
+  <title>Altronix eFlow102NB</title>
+  <label>eFlow102NB</label>
+  <date>2026-07-15</date>
+  <url>https://www.altronix.com/products/eflow102nb</url>
+  <tags>
+    <tag>Altronix</tag>
+    <tag>eFlow102NB</tag>
+    <tag>power supply</tag>
+    <tag>battery charger</tag>
+    <tag>access control</tag>
+    <tag>12VDC</tag>
+    <tag>10A</tag>
+    <tag>FACP</tag>
+  </tags>
+  <properties>
+    <property name="family">Power Supply Charger</property>
+    <property name="variant">eFlow102NB</property>
+    <property name="part number">eFlow102NB</property>
+    <property name="dimensions">Red Max 1:1 calibrated 5.4273 in x 3.1752 in</property>
+    <property name="output">12VDC 10A</property>
+    <property name="input">120VAC 60Hz 3.5A</property>
+    <property name="mounting pattern">Upper Red Max power-supply slot</property>
+    <property name="mounting hole spacing">4.7238 in x 2.5802 in</property>
+    <property name="calibration source">Red Max exact 1368 x 1752 px image at 96 DPI</property>
+    <property name="SVG coordinate density">72 units per inch</property>
+    <property name="renderer compatibility">Plain default SVG namespace; no generated ns0 prefixes</property>
+  </properties>
+  <description>Altronix eFlow102NB UL Listed sub-assembly power supply/charger. Converts 120VAC 60Hz input to a regulated 12VDC output rated 10A continuous. Includes standby battery charging, AC and battery failure Form-C supervision, supervised fire alarm disconnect interface, and an unswitched 1A auxiliary output. Breadboard dimensions use the official approximate board dimensions of 7.5 x 4.6 inches. This custom Fritzing part is intended for enclosure layout and wiring documentation. Recalibrated against the exact 1368 x 1752 px, 96 DPI Red Max enclosure artwork. Target pattern: Upper Red Max power-supply slot; mounting-hole spacing 4.7238 x 2.5802 inches. Resulting breadboard footprint: 5.4273 x 3.1752 inches. This revision removes generated namespace prefixes that can break Qt/Fritzing SVG rendering and normalizes every SVG view to 72 coordinate units per physical inch, matching established Fritzing part conventions.</description>
+  <views>
+    <iconView>
+      <layers image="icon/Altronix_eFlow102NB_icon.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+    <breadboardView>
+      <layers image="breadboard/Altronix_eFlow102NB_breadboard.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/Altronix_eFlow102NB_schematic.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <pcbView>
+      <layers image="pcb/Altronix_eFlow102NB_pcb.svg">
+        <layer layerId="copper0" />
+        <layer layerId="copper1" />
+        <layer layerId="silkscreen" />
+      </layers>
+    </pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="female" name="AC Input L">
+      <description>120VAC 60Hz line/hot input. Use 14 AWG or larger and follow applicable electrical codes.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector0pin" layer="copper0" />
+          <p svgId="connector0pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="female" name="AC Input G">
+      <description>Protective earth ground input.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector1pin" layer="copper0" />
+          <p svgId="connector1pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="female" name="AC Input N">
+      <description>120VAC 60Hz neutral input.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector2pin" layer="copper0" />
+          <p svgId="connector2pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="female" name="AC Fail NC">
+      <description>AC failure supervisory relay normally closed contact. Contact rating 1A at 30VDC.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector3pin" layer="copper0" />
+          <p svgId="connector3pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="female" name="AC Fail C">
+      <description>AC failure supervisory relay common contact. Relay is normally energized when AC is present.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector4pin" layer="breadboard" terminalId="connector4terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector4pin" layer="copper0" />
+          <p svgId="connector4pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="female" name="AC Fail NO">
+      <description>AC failure supervisory relay normally open contact. Contact rating 1A at 30VDC.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector5pin" layer="breadboard" terminalId="connector5terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector5pin" layer="copper0" />
+          <p svgId="connector5pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="female" name="Battery Fail NC">
+      <description>Battery failure supervisory relay normally closed contact. Contact rating 1A at 30VDC.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector6pin" layer="breadboard" terminalId="connector6terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector6pin" layer="schematic" terminalId="connector6terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector6pin" layer="copper0" />
+          <p svgId="connector6pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="female" name="Battery Fail C">
+      <description>Battery failure supervisory relay common contact. Relay is normally energized when DC is present.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector7pin" layer="breadboard" terminalId="connector7terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector7pin" layer="schematic" terminalId="connector7terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector7pin" layer="copper0" />
+          <p svgId="connector7pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="female" name="Battery Fail NO">
+      <description>Battery failure supervisory relay normally open contact. Contact rating 1A at 30VDC.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector8pin" layer="breadboard" terminalId="connector8terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector8pin" layer="schematic" terminalId="connector8terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector8pin" layer="copper0" />
+          <p svgId="connector8pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="female" name="FACP Trigger">
+      <description>Supervised fire alarm interface trigger input. Accepts a normally open or normally closed FACP trigger circuit.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector9pin" layer="breadboard" terminalId="connector9terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector9pin" layer="schematic" terminalId="connector9terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector9pin" layer="copper0" />
+          <p svgId="connector9pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="female" name="FACP EOL">
+      <description>Supervised fire alarm interface EOL connection. Use the required 10K end-of-line resistor arrangement.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector10pin" layer="breadboard" terminalId="connector10terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector10pin" layer="schematic" terminalId="connector10terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector10pin" layer="copper0" />
+          <p svgId="connector10pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="female" name="FACP Reset NO">
+      <description>Normally open FACP reset connection used for latching or non-latching fire alarm interface operation.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector11pin" layer="breadboard" terminalId="connector11terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector11pin" layer="schematic" terminalId="connector11terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector11pin" layer="copper0" />
+          <p svgId="connector11pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="female" name="FACP Reset GND">
+      <description>Ground connection for FACP reset input.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector12pin" layer="breadboard" terminalId="connector12terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector12pin" layer="schematic" terminalId="connector12terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector12pin" layer="copper0" />
+          <p svgId="connector12pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="female" name="Auxiliary Output +">
+      <description>Unswitched power-limited 12VDC auxiliary output, rated 1A maximum.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector13pin" layer="breadboard" terminalId="connector13terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector13pin" layer="schematic" terminalId="connector13terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector13pin" layer="copper0" />
+          <p svgId="connector13pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="female" name="Auxiliary Output -">
+      <description>Negative return for the unswitched 12VDC auxiliary output.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector14pin" layer="breadboard" terminalId="connector14terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector14pin" layer="schematic" terminalId="connector14terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector14pin" layer="copper0" />
+          <p svgId="connector14pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="female" name="DC Output -">
+      <description>Main regulated 12VDC negative output. eFlow102NB output is rated 10A continuous maximum.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector15pin" layer="breadboard" terminalId="connector15terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector15pin" layer="schematic" terminalId="connector15terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector15pin" layer="copper0" />
+          <p svgId="connector15pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="female" name="DC Output +">
+      <description>Main regulated 12VDC positive output. eFlow102NB output is rated 10A continuous maximum.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector16pin" layer="breadboard" terminalId="connector16terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector16pin" layer="schematic" terminalId="connector16terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector16pin" layer="copper0" />
+          <p svgId="connector16pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="female" name="Battery -">
+      <description>Standby sealed lead-acid or gel battery negative connection.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector17pin" layer="breadboard" terminalId="connector17terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector17pin" layer="schematic" terminalId="connector17terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector17pin" layer="copper0" />
+          <p svgId="connector17pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="female" name="Battery +">
+      <description>Standby sealed lead-acid or gel battery positive connection. Maximum charge current is 1.54A.</description>
+      <views>
+        <breadboardView>
+          <p svgId="connector18pin" layer="breadboard" terminalId="connector18terminal" />
+        </breadboardView>
+        <schematicView>
+          <p svgId="connector18pin" layer="schematic" terminalId="connector18terminal" />
+        </schematicView>
+        <pcbView>
+          <p svgId="connector18pin" layer="copper0" />
+          <p svgId="connector18pin" layer="copper1" />
+        </pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
